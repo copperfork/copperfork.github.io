@@ -20,16 +20,18 @@ body{
     background-color: #565656;
 }
 .topbar{
-    margin: 0;
-    padding: 0;
+    position: sticky;
     background-color: rgb(60, 60, 60);
     overflow: hidden;
+    top: 0;
+    z-index: 100;
 }
 .topbartext{
-    color: white;
+    color: rgb(255, 171, 61);
     font-weight: lighter;
     float: left;
     margin: 1%;
+    font-size: 2.5vw;
 }
 .about{
     overflow: hidden;
@@ -37,7 +39,7 @@ body{
     margin-top: 5%;
     padding-bottom: 4vw;
     position: relative;
-    color: white;
+    color: rgb(255, 255, 255);
     /* background-color: aliceblue; */
 }
 .who{
@@ -78,4 +80,18 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.spot{
+    margin: 10%;
+}
+.infolink{
+    text-decoration: none;
+    text-decoration-color: none;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: lighter;
+    float: left;
+    margin: 1%;
+}
+a:hover{
+    color: rgb(255, 215, 145);
+}
