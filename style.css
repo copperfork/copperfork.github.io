@@ -61,10 +61,11 @@ body{
     /* background-color: aliceblue; */
 }
 .who{
+    float: inline-start;
+    position: relative;
     font-family: rubik;
     font-size: 4vw;
     font-weight: 400;
-    position: relative;
     left: 20px;
 }
 .abtpar{
@@ -75,8 +76,21 @@ body{
     margin: 2%;
     line-height: 0.5;
 }
+.hello{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.grass{
+    left: 15px;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    float: inline-start;
+    width: 6vw;
+}
 .ryobig{
-    z-index: -100;
+    z-index: 10;
     opacity: 40%;
     width: 15vw;
     position: absolute;
@@ -90,6 +104,9 @@ body{
     font-size: 0.8vw;
     color: #b8b8b8;
 }
+.sep{
+    float: inline-start;
+}
 .sep1{
     margin-bottom: 4%;
 }
@@ -100,8 +117,11 @@ body{
     margin-bottom: 50px;
 }
 .arrcontainer{
+    z-index: -3;
+    background-color: #f2d5776f;
     margin: 4%;
-    padding: 1%;
+    margin-right: 300px;
+    padding: 3%;
     left: 7%;
 }
 .arr{
@@ -109,7 +129,6 @@ body{
     color: rgb(255, 242, 99);
     font-size: 3vw;
     width: 50%;
-    position: relative;
 }
 .arr2{
     font-family: vcr_osd_mono;
@@ -131,4 +150,39 @@ body{
 }
 a:hover{
     color: rgb(255, 215, 145);
+}
+
+/** container 2 idk **/ 
+.bigcontainer{
+    position: relative;
+    color: #414141;
+    font-size: 1.6vw;
+    overflow: hidden;
+    background-color: #949494;
+    background-size: cover;
+}
+.h1yeah{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    position: relative;
+    text-align: center;
+}
+.h2yeah{
+    text-align: center;
+    color: #6d6d6d;
+}
+.bigassosuthing{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin: 5vw;
+}
+.ryou2{
+    z-index: 1;
+    position: absolute;
+    left: 20%;
+    bottom: 2px;
+    width: 13vw;
+    opacity: 20%;
 }
