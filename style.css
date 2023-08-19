@@ -170,10 +170,12 @@ a:link{
     color: #fffcdd;
     text-decoration: none;
 }
-a:hover{
-    color: rgb(255, 215, 145);
-}
 
+a:hover{
+    background: -webkit-radial-gradient(#f8debd, #ffd183);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /** container 2 idk **/ 
 
