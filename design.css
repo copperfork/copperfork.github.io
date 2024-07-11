@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Nunito", sans-serif;
+}
+body{
+    background-color: #2D3250;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    background-color: #1f233b;
+    padding-right: 100%;
+    margin-right: 100%;
+    border-width: 0;
+    border-bottom: #7077A1;
+    border-bottom-width: 7px;
+    border-bottom-style: groove;
+    display: list-item;
+}
+#discordlink{
+    position: inherit;
+}
+.navtext{
+    color: #f0dbff;
+    margin-left: 100px;
+    margin-right: 100%;
+}
+.discordicon{
+    position: inherit;
+    top: 0px;
+    margin: 35px;
+    margin-left: 275px;
+    width: 25px;
+    filter: brightness(0) saturate(100%) invert(94%) sepia(99%) saturate(6096%) hue-rotate(184deg) brightness(103%) contrast(101%);
+}
+.Intro{
+    background-color: #424769;
+    font-size: medium;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 40px;
+}
+.generic{
+    color: #f0dbff;
+    text-align: center;
+    line-height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.maincontent{
+    white-space: nowrap;
+    background-color: #424769;
+    border: 6px;
+    border-color: #7077A1;
+    border-style: dashed;
+    border-radius: 40px;
+}
+.realmaincontent{
+    margin: 100px;
+    margin-top: 4.3cm;
+    padding: 30px;
+}
+.overarching{
+    overflow: unset;
+    margin: 80px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between
+}
+.subcont{
+    background-color: #424769;
+    border-color: #a4aacc;
+    display: inline-block;
+    width: 6cm;
+    margin: 20px;
+    text-align: center;
+}
+.header{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
+
+
+
+.secondhalf{
+    border: #2D3250;
+    border-top-style: dashed;
+    border-top-width: 7px;
+    background-color: #a4aacc;
+    height: 6in;
+    margin-bottom: 0;
+}
+.thirdhalf{
+    border: #a4aacc;
+    border-top-style: dashed;
+    border-top-width: 7px;
+    margin-top: 0;
+    background-color: #424769;
+    height: 6in;
+    overflow: auto;
+}
+.Hello2{
+    line-height: 20px;
+    font-size: 60px;
+    position: relative;
+    color: #2D3250;
+    margin-left: 100px;
+    top: 40px;
+}
+.Hello3{
+    line-height: 20px;
+    font-size: 60px;
+    position: relative;
+    color:#ffffff;
+    margin-left: 100px;
+    top: 70px;
+}
+.secondtitle{
+    text-align: left;
+    font-size: 0.7cm;
+    top: 1in;
+    position: relative;
+    color: #424769;
+    line-height: 26px;
+    margin-left: 100px;
+}
+.thirdtitle{
+    text-align: left;
+    font-size: 0.7cm;
+    top: 1in;
+    position: relative;
+    color: #f0dbff;
+    line-height: 30px;
+    margin-left: 100px;
+}
+#Hello{
+    font-size: 60px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
