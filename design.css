@@ -35,7 +35,6 @@ body{
     margin: 35px;
     margin-left: 275px;
     width: 25px;
-    filter: brightness(0) saturate(100%) invert(94%) sepia(99%) saturate(6096%) hue-rotate(184deg) brightness(103%) contrast(101%);
 }
 .Intro{
     background-color: #424769;
@@ -47,35 +46,35 @@ body{
 .generic{
     color: #f0dbff;
     text-align: center;
-    line-height: 45px;
-    overflow: hidden;
+    line-height: 35px;
     text-overflow: ellipsis;
+    margin: 20px;
 }
 .maincontent{
-    white-space: nowrap;
     background-color: #424769;
     border: 6px;
     border-color: #7077A1;
-    border-style: dashed;
+    border-style: solid;
     border-radius: 40px;
 }
 .realmaincontent{
-    margin: 100px;
+    white-space: pre-line;
+    margin: 60px;
     margin-top: 4.3cm;
     padding: 30px;
 }
 .overarching{
-    overflow: unset;
-    margin: 80px;
+    margin: 40px;
     display: flex;
-    white-space: nowrap;
-    justify-content: space-between
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .subcont{
     background-color: #424769;
-    border-color: #a4aacc;
+    border-color: #7077A1;
+    border-style: dashed;
     display: inline-block;
-    width: 6cm;
+    min-width: 10%;
     margin: 20px;
     text-align: center;
 }
@@ -83,43 +82,64 @@ body{
     font-size: 40px;
     color: #ffffff;
 }
-
-
-
-
-
+.subtext{
+    font-size: 1.5rem;
+}
 .secondhalf{
     border: #2D3250;
     border-top-style: dashed;
     border-top-width: 7px;
     background-color: #a4aacc;
-    height: 6in;
-    margin-bottom: 0;
+    height: auto;
+    padding-bottom: 4cm;
 }
 .thirdhalf{
     border: #a4aacc;
     border-top-style: dashed;
     border-top-width: 7px;
-    margin-top: 0;
     background-color: #424769;
-    height: 6in;
-    overflow: auto;
+    height: auto;
+    padding-bottom: 4cm;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.funfactp{
+    width: 55%;
+}
+.fourthHalf{
+    border: #424769;
+    border-top-style: dashed;
+    border-top-width: 7px;
+    height: auto;
+    padding-bottom: 4cm;
 }
 .Hello2{
-    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 50px;
     font-size: 60px;
     position: relative;
     color: #2D3250;
     margin-left: 100px;
+    margin-right: 100px;
     top: 40px;
 }
 .Hello3{
-    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 50px;
     font-size: 60px;
     position: relative;
     color:#ffffff;
     margin-left: 100px;
+    margin-right: 100px;
     top: 70px;
+    width: 55%;
+}
+.Hello4Mod{
+    text-align: left;
 }
 .secondtitle{
     text-align: left;
@@ -129,8 +149,10 @@ body{
     color: #424769;
     line-height: 26px;
     margin-left: 100px;
+    margin-right: 100px;
 }
 .thirdtitle{
+    min-height:100%;
     text-align: left;
     font-size: 0.7cm;
     top: 1in;
@@ -138,10 +160,33 @@ body{
     color: #f0dbff;
     line-height: 30px;
     margin-left: 100px;
+    margin-right: 100px
 }
-#Hello{
-    font-size: 60px;
-    padding: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.fourthTitle{
+    text-align: left;
+}
+@media all and (max-width: 500px){
+    .generic{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .header{
+        line-height: 45px;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 2.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Hello2{
+        font-size: 2.5rem;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .Hello3{
+        font-size: 2.5rem;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
